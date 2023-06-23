@@ -1,0 +1,37 @@
+
+.menu {
+    background-color:#498C3F;
+    padding: 25px;
+    border-bottom: 1px solid #498C3F;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_logo {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu a {
+    font-size: 14px;
+    font-weight: 600;    
+    max-width: 240px;
+    margin: 10px;
+    box-shadow: 1px 1px 2px #498C3F;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}   
+
+.menu a:hover {    
+    transform: scale(1.2);
+}

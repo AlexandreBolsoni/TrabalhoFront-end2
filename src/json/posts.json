@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "titulo": "Front-End",
+        "descricao": "O curso de Front-End é projetado para ensinar os fundamentos do desenvolvimento de interfaces de usuário interativas e atraentes. Aprenda a utilizar HTML, CSS e JavaScript para criar websites responsivos, otimizados e visualmente atraentes. Explore as melhores práticas de design de interface, técnicas de acessibilidade e ferramentas populares de desenvolvimento Front-End.",
+        "slug": "curso-front-end"
+    },
+    {
+        "id": 2,
+        "titulo": "Back-End",
+        "descricao": "No curso de Back-End, você mergulhará no mundo do desenvolvimento de sistemas e aplicativos server-side. Domine as principais linguagens de programação, como Python, Java ou Ruby, e aprenda a criar APIs, gerenciar bancos de dados e lidar com a lógica de negócios por trás das aplicações web. Este curso fornecerá o conhecimento necessário para construir e manter a infraestrutura de servidores e garantir o bom funcionamento dos sistemas.",
+        "slug": "curso-back-end"
+    },
+    {
+        "id": 3,
+        "titulo": "Back-End",
+        "descricao": "No curso de Back-End, você mergulhará no mundo do desenvolvimento de sistemas e aplicativos server-side. Domine as principais linguagens de programação, como Python, Java ou Ruby, e aprenda a criar APIs, gerenciar bancos de dados e lidar com a lógica de negócios por trás das aplicações web. Este curso fornecerá o conhecimento necessário para construir e manter a infraestrutura de servidores e garantir o bom funcionamento dos sistemas.",
+        "slug": "curso-back-end"
+    },
+    {
+        "id": 4,
+        "titulo": "Back-End",
+        "descricao": "No curso de Back-End, você mergulhará no mundo do desenvolvimento de sistemas e aplicativos server-side. Domine as principais linguagens de programação, como Python, Java ou Ruby, e aprenda a criar APIs, gerenciar bancos de dados e lidar com a lógica de negócios por trás das aplicações web. Este curso fornecerá o conhecimento necessário para construir e manter a infraestrutura de servidores e garantir o bom funcionamento dos sistemas.",
+        "slug": "curso-back-end"
+    },
+    {
+        "id": 5,
+        "titulo": "Back-End",
+        "descricao": "No curso de Back-End, você mergulhará no mundo do desenvolvimento de sistemas e aplicativos server-side. Domine as principais linguagens de programação, como Python, Java ou Ruby, e aprenda a criar APIs, gerenciar bancos de dados e lidar com a lógica de negócios por trás das aplicações web. Este curso fornecerá o conhecimento necessário para construir e manter a infraestrutura de servidores e garantir o bom funcionamento dos sistemas.",
+        "slug": "curso-back-end"
+    }
+]
