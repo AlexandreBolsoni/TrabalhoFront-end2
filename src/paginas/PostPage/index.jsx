@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
-// import Post from "../../componentes/PostLink";
-// import VideoCard from "../../componentes/VideoCard";
+import AlunoLink from "../../componentes/AlunosCard";
 import posts from "../../json/posts.json"
 import NaoEncontrada from "../NaoEncontrada";
 import styles from './PostPage.module.css'
@@ -17,6 +16,7 @@ function PostPage() {
   }
   return (
   <>
+  <div>
         <div className={styles.PostPage}>
           <div className={styles.PostTitulo}>
               <h1>{post.titulo}</h1>
@@ -25,7 +25,11 @@ function PostPage() {
           <div className={styles.PostDescricao}>
             {post.descricao}
           </div>
-        </div>    
+       
+        </div>   
+           {/* <AlunoLink/> */}
+        </div>
+         
     </>
   )
 }

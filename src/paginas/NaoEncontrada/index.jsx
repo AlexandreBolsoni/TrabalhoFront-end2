@@ -6,7 +6,7 @@ function NaoEncontrada() {
   console.log(navegar)
   return (
     <div className={styles.NaoEncontrada}>
-          <h1 className={styles.Error}>404</h1>
+          <h1 className={styles.Error}>ERRO</h1>
           <h1 className={styles.titulo}>
               Ops! Página não encontrada.
           </h1>

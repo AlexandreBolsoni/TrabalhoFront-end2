@@ -3,30 +3,244 @@
         "id": 1,
         "titulo": "Front-End",
         "descricao": "O curso de Front-End é projetado para ensinar os fundamentos do desenvolvimento de interfaces de usuário interativas e atraentes. Aprenda a utilizar HTML, CSS e JavaScript para criar websites responsivos, otimizados e visualmente atraentes. Explore as melhores práticas de design de interface, técnicas de acessibilidade e ferramentas populares de desenvolvimento Front-End.",
-        "slug": "curso-front-end"
+        "slug": "Prof. Bruno Cemente",
+        "alunos" : [  
+             {
+            "nome": "João",
+            "matricula": 123456,
+            "notas": [7.5, 8.0, 6.5]
+          },
+          {
+            "nome": "Maria",
+            "matricula": 789012,
+            "notas": [9.0, 7.0, 8.5]
+          },
+          {
+            "nome": "Pedro",
+            "matricula": 345678,
+            "notas": [6.0, 7.5, 6.0]
+          },
+          {
+            "nome": "Ana",
+            "matricula": 901234,
+            "notas": [8.0, 8.0, 7.5]
+          }
+        
+        ]
+        
+         
+
     },
     {
         "id": 2,
         "titulo": "Back-End",
         "descricao": "No curso de Back-End, você mergulhará no mundo do desenvolvimento de sistemas e aplicativos server-side. Domine as principais linguagens de programação, como Python, Java ou Ruby, e aprenda a criar APIs, gerenciar bancos de dados e lidar com a lógica de negócios por trás das aplicações web. Este curso fornecerá o conhecimento necessário para construir e manter a infraestrutura de servidores e garantir o bom funcionamento dos sistemas.",
-        "slug": "curso-back-end"
+        "slug": "Prof. Milton Cesar",
+        "alunos": [
+            {
+              "nome": "João",
+              "matricula": 123456,
+              "notas": [7.5, 8.0, 6.5]
+            },
+            {
+              "nome": "Maria",
+              "matricula": 789012,
+              "notas": [9.0, 7.0, 8.5]
+            },
+            {
+              "nome": "Pedro",
+              "matricula": 345678,
+              "notas": [6.0, 7.5, 6.0]
+            },
+            {
+              "nome": "Ana",
+              "matricula": 901234,
+              "notas": [8.0, 8.0, 7.5]
+            },
+            {
+              "nome": "Carlos",
+              "matricula": 567890,
+              "notas": [7.5, 7.0, 7.5]
+            },
+            {
+              "nome": "Juliana",
+              "matricula": 234567,
+              "notas": [8.5, 9.0, 8.0]
+            },
+            {
+              "nome": "Fernanda",
+              "matricula": 890123,
+              "notas": [9.5, 9.0, 9.5]
+            },
+            {
+              "nome": "Lucas",
+              "matricula": 456789,
+              "notas": [7.0, 8.5, 7.0]
+            },
+            {
+              "nome": "Mariana",
+              "matricula": 678901,
+              "notas": [8.0, 8.5, 9.0]
+            }
+          ]
     },
     {
         "id": 3,
-        "titulo": "Back-End",
-        "descricao": "No curso de Back-End, você mergulhará no mundo do desenvolvimento de sistemas e aplicativos server-side. Domine as principais linguagens de programação, como Python, Java ou Ruby, e aprenda a criar APIs, gerenciar bancos de dados e lidar com a lógica de negócios por trás das aplicações web. Este curso fornecerá o conhecimento necessário para construir e manter a infraestrutura de servidores e garantir o bom funcionamento dos sistemas.",
-        "slug": "curso-back-end"
+        "titulo": "Back-End II",
+        "descricao": "No curso de Back-End II, você mergulhará mais a fundo no desenvolvimento de sistemas e aplicativos server-side. Aprofunde seus conhecimentos em linguagens de programação como Python, Java ou Ruby e aprenda a criar APIs robustas, gerenciar bancos de dados avançados e implementar a lógica de negócios complexa por trás das aplicações web. Este curso permitirá que você se torne um especialista em infraestrutura de servidores e garanta o bom funcionamento dos sistemas.",
+        "slug": "Prof. Maycon",
+        "alunos": [
+            {
+              "nome": "João",
+              "matricula": 123456,
+              "notas": [6.0, 7.0, 8.0]
+            },
+            {
+              "nome": "Maria",
+              "matricula": 789012,
+              "notas": [8.0, 9.0, 7.5]
+            },
+            {
+              "nome": "Pedro",
+              "matricula": 345678,
+              "notas": [7.5, 7.5, 7.0]
+            },
+            {
+              "nome": "Ana",
+              "matricula": 901234,
+              "notas": [7.0, 8.0, 8.5]
+            },
+            {
+              "nome": "Carlos",
+              "matricula": 567890,
+              "notas": [7.0, 7.5, 6.5]
+            },
+            {
+              "nome": "Juliana",
+              "matricula": 234567,
+              "notas": [8.0, 8.5, 9.0]
+            },
+            {
+              "nome": "Fernanda",
+              "matricula": 890123,
+              "notas": [9.0, 9.5, 9.0]
+            },
+            {
+              "nome": "Lucas",
+              "matricula": 456789,
+              "notas": [7.5, 8.0, 7.5]
+            },
+            {
+              "nome": "Mariana",
+              "matricula": 678901,
+              "notas": [8.5, 9.0, 8.5]
+            }
+          ]
     },
     {
         "id": 4,
-        "titulo": "Back-End",
-        "descricao": "No curso de Back-End, você mergulhará no mundo do desenvolvimento de sistemas e aplicativos server-side. Domine as principais linguagens de programação, como Python, Java ou Ruby, e aprenda a criar APIs, gerenciar bancos de dados e lidar com a lógica de negócios por trás das aplicações web. Este curso fornecerá o conhecimento necessário para construir e manter a infraestrutura de servidores e garantir o bom funcionamento dos sistemas.",
-        "slug": "curso-back-end"
+        "titulo": "Lógica de Programação",
+        "descricao": "No curso de Lógica de Programação, você irá adquirir as habilidades fundamentais para a programação de computadores. Aprenda a pensar de forma lógica, resolver problemas algorítmicos e desenvolver algoritmos eficientes. Este curso fornecerá uma base sólida para sua jornada como programador, independentemente da área específica em que você deseja atuar.",
+        "slug": "Prof. Archimedes Detoni",
+        "alunos": [
+            {
+              "nome": "João",
+              "matricula": 123456,
+              "notas": [6.0, 7.0, 8.0]
+            },
+            {
+              "nome": "Maria",
+              "matricula": 789012,
+              "notas": [8.0, 9.0, 7.5]
+            },
+            {
+              "nome": "Pedro",
+              "matricula": 345678,
+              "notas": [7.5, 7.5, 7.0]
+            },
+            {
+              "nome": "Ana",
+              "matricula": 901234,
+              "notas": [7.0, 8.0, 8.5]
+            },
+            {
+              "nome": "Carlos",
+              "matricula": 567890,
+              "notas": [7.0, 7.5, 6.5]
+            },
+            {
+              "nome": "Juliana",
+              "matricula": 234567,
+              "notas": [8.0, 8.5, 9.0]
+            },
+            {
+              "nome": "Fernanda",
+              "matricula": 890123,
+              "notas": [9.0, 9.5, 9.0]
+            },
+            {
+              "nome": "Lucas",
+              "matricula": 456789,
+              "notas": [7.5, 8.0, 7.5]
+            },
+            {
+              "nome": "Mariana",
+              "matricula": 678901,
+              "notas": [8.5, 9.0, 8.5]
+            }
+          ]
     },
     {
         "id": 5,
-        "titulo": "Back-End",
-        "descricao": "No curso de Back-End, você mergulhará no mundo do desenvolvimento de sistemas e aplicativos server-side. Domine as principais linguagens de programação, como Python, Java ou Ruby, e aprenda a criar APIs, gerenciar bancos de dados e lidar com a lógica de negócios por trás das aplicações web. Este curso fornecerá o conhecimento necessário para construir e manter a infraestrutura de servidores e garantir o bom funcionamento dos sistemas.",
-        "slug": "curso-back-end"
+        "titulo": "UX Design",
+        "descricao": "O curso de UX Design irá explorar os princípios e técnicas essenciais para a criação de experiências de usuário envolventes. Aprenda a conduzir pesquisas de usuário, criar wireframes, protótipos interativos e realizar testes de usabilidade. Compreenda como aplicar princípios de psicologia cognitiva e design centrado no usuário para melhorar a usabilidade e a satisfação do usuário em diversos contextos.",
+        "slug": "Prof. Bruno Cemente",
+        "alunos": [
+            {
+              "nome": "João",
+              "matricula": 123456,
+              "notas": [6.0, 7.0, 8.0]
+            },
+            {
+              "nome": "Maria",
+              "matricula": 789012,
+              "notas": [8.0, 9.0, 7.5]
+            },
+            {
+              "nome": "Pedro",
+              "matricula": 345678,
+              "notas": [7.5, 7.5, 7.0]
+            },
+            {
+              "nome": "Ana",
+              "matricula": 901234,
+              "notas": [7.0, 8.0, 8.5]
+            },
+            {
+              "nome": "Carlos",
+              "matricula": 567890,
+              "notas": [7.0, 7.5, 6.5]
+            },
+            {
+              "nome": "Juliana",
+              "matricula": 234567,
+              "notas": [8.0, 8.5, 9.0]
+            },
+            {
+              "nome": "Fernanda",
+              "matricula": 890123,
+              "notas": [9.0, 9.5, 9.0]
+            },
+            {
+              "nome": "Lucas",
+              "matricula": 456789,
+              "notas": [7.5, 8.0, 7.5]
+            },
+            {
+              "nome": "Mariana",
+              "matricula": 678901,
+              "notas": [8.5, 9.0, 8.5]
+            }
+          ]
     }
 ]

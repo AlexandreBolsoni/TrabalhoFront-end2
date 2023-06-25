@@ -1,4 +1,4 @@
-.VideoCard {
+.AlunoCard {
     margin-top: 20px;
     text-align: center;
     width: 282px;
@@ -8,13 +8,11 @@
     transition: transform .2s;
 }
  
-.VideoCard:hover {
+.AlunoCard:hover {
     transform: translate(0, -1rem);
 }
  
-.capa {
-    width: 100%;
-}
+
  
 .titulo {
     font-family: var(--fonte-secundaria);

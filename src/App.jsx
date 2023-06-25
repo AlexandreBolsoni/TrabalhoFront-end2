@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route,  } from "react-router-dom";
 import Menu from "./componentes/Menu";
 // import PostLink from "./componentes/PostLink";
-import Inicio from "./paginas/Inicio"
+import Inicio from "./paginas/Materias"
 import NaoEncontrada from "./paginas/NaoEncontrada";
 import PostPage from "./paginas/PostPage";
 import SobreMim from "./paginas/SobreMim"
