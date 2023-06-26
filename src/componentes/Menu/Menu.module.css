@@ -42,10 +42,10 @@
 }
 
 /* Estilos para celular */
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .menu {
         width: 100%;
-        height: auto;
+        height: 150px;
         bottom: 0;
         flex-direction: row;
         justify-content: space-evenly;
