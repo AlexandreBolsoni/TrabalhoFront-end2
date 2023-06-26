@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import AlunoLink from "../../componentes/AlunosCard";
+import AlunoCard from "../../componentes/AlunosCard";
 import posts from "../../json/posts.json"
 import NaoEncontrada from "../NaoEncontrada";
 import styles from './PostPage.module.css'
@@ -26,10 +26,11 @@ function PostPage() {
             {post.descricao}
           </div>
        
-        </div>   
-           {/* <AlunoLink/> */}
         </div>
-         
+        <AlunoCard/>   
+           
+        </div>
+        
     </>
   )
 }

@@ -1,23 +1,30 @@
-.AlunoCard {
-    margin-top: 20px;
-    text-align: center;
-    width: 282px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-    border-radius: 0px 0px 10px 10px;
-    padding-bottom: 1.5rem;
-    transition: transform .2s;
-}
- 
-.AlunoCard:hover {
-    transform: translate(0, -1rem);
-}
- 
-
- 
-.titulo {
-    font-family: var(--fonte-secundaria);
-    font-size: 1.25rem;
-    color: var(--azul-escuro);
-    line-height: 1.75rem;
-    margin: 1.5rem 0 1.75rem;
-} 
+/* AlunosCard.module.css */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .table a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  

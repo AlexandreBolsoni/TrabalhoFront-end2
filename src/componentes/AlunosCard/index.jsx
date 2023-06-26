@@ -1,30 +1,49 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import {  useParams  } from 'react-router-dom';
+import NaoEncontrada from "../../paginas/NaoEncontrada/index";
 import styles from './AlunosCard.module.css';
+import posts from '../../json/posts.json';
 
-export default function AlunoLink(props) {
-  const cursos = props.cursos; // vetor de cursos
 
-  // Reduz os cursos para obter o vetor de alunos
-  const alunos = cursos.reduce((alunosArray, curso) => {
-    return alunosArray.concat(curso.alunos);
-  }, []);
+function AlunoCard() {
+  const parametros = useParams()
+  console.log(parametros)
 
+
+
+
+  const curso = posts.find(elemento => elemento.id === Number(parametros.id));  
+  if(!curso) {
+    return (
+      <NaoEncontrada />
+    )
+  }
   return (
-    <div>
-      {alunos.map(aluno => (
-        <Link to={`/alunos/${aluno.matricula}`} key={aluno.matricula}>
-          <div className={styles.AlunoCard}>
-            <div className={styles.nome}>
-              {aluno.nome}
-            </div>
-            <div className={styles.container}>
-              <span className={styles.titulo}>{aluno.matricula}</span>
-              <span className={styles.slug}>{aluno.notas[0]}</span>
-            </div>
-          </div>
-        </Link>
-      ))}
-    </div>
-  );
+
+ <table>
+  <tbody>
+   
+            <tr className={styles.PostTitulo}>
+              <td>
+                <p>{curso.nome}</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>{curso.matricula}</p>
+              </td>
+            </tr>
+            <tr>
+              <td className={styles.PostDescricao}>
+                {curso.notas}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        
+  
+  )
 }
+
+export  default AlunoCard

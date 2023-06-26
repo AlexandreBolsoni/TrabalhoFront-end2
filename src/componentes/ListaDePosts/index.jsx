@@ -8,8 +8,6 @@ import PostLink from '../PostLink'
 
 export default function ListaDePosts() {
 
-    console.log(posts)
-    console.log(posts[2])
 
     return (
         <div className={styles.ListaDePosts}>
