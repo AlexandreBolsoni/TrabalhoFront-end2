@@ -48,7 +48,7 @@ span.slug {
 /* Estilos para celular */
 @media (max-width: 800px) {
     .post {
-        width: 50%;
+        width: 80%;
         margin: auto;
          flex-direction: column;
         margin-bottom: 45% /* Adicione esta linha */
