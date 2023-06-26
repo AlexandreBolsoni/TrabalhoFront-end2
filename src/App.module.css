@@ -8,7 +8,7 @@
 /* Estilos para celular */
 @media (max-width: 600px) {
   .App {
-    height: 180vh; /* Altera para altura automática */
-    padding: 20px; /* Adiciona espaçamento interno */
+    height: 170vh; /* Altera para altura automática */
+
   }
 }
