@@ -1,14 +1,15 @@
 .App {
+  overflow-x: hidden;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  height: 150vh;
+  height: 100vh;
 }
 
 /* Estilos para celular */
 @media (max-width: 600px) {
   .App {
-    height: 170vh; /* Altera para altura automática */
+    height: 150vh; /* Altera para altura automática */
 
   }
 }

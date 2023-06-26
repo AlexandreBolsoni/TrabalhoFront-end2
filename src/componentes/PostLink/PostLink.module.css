@@ -5,7 +5,7 @@ a {
 
 .post {
     border-radius: 25px;
-    margin: 5% auto;
+    margin:  5% auto;
     width: 60%;
     background-color: rgba(0, 255, 8, 0.207);
     padding: 20px;
@@ -46,19 +46,15 @@ span.slug {
 }
 
 /* Estilos para celular */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .post {
-        width: 80%;
-        margin: 0 auto;
-    
-        flex-direction: column;
-        margin-bottom: 25% /* Adicione esta linha */
+        width: 50%;
+        margin: auto;
+         flex-direction: column;
+        margin-bottom: 45% /* Adicione esta linha */
     }
 
-    .id {
-        padding: 20px;
-        font-size: 32px;
-    }
+
 
  
 
