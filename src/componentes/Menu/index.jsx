@@ -17,7 +17,7 @@ export default function Menu() {
                     <MenuLink to='/sobremim'>Sobre Mim</MenuLink>
                 </li>
                 <li>
-                    <MenuLink to='/thales'>Home</MenuLink>
+                    <MenuLink to='/home'>Home</MenuLink>
                 </li>
                 
             </ul>            
