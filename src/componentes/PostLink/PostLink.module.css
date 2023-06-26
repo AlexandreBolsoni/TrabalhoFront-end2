@@ -51,7 +51,7 @@ span.slug {
         width: 80%;
         margin: auto;
          flex-direction: column;
-        margin-bottom: 45% /* Adicione esta linha */
+        margin: 25% auto;
     }
 
 
