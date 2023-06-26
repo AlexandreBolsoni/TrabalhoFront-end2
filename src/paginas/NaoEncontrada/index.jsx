@@ -13,10 +13,7 @@ function NaoEncontrada() {
           <p>
               Tem certeza de que era isso que você estava procurando?
           </p>
-          <p>
-              Aguarde uns instantes e recarregue a página, ou volte para a página inicial.
-          </p>      
-           
+     
          
 
     </div>    
