@@ -21,6 +21,51 @@
               "nota": 63.83
           },
           {
+              "nome": "João Pedro",
+              "matricula": 123456,
+              "nota": 74.67
+          },
+          {
+              "nome": "Ana Maria",
+              "matricula": 789012,
+              "nota": 81.67
+          },
+          {
+              "nome": "Pedro Lucas",
+              "matricula": 345678,
+              "nota": 63.83
+          },
+          {
+              "nome": "João Luiz",
+              "matricula": 123456,
+              "nota": 74.67
+          },
+          {
+              "nome": "Maria Clara",
+              "matricula": 789012,
+              "nota": 81.67
+          },
+          {
+              "nome": "Pedro Vinicius",
+              "matricula": 345678,
+              "nota": 63.83
+          },
+          {
+              "nome": "João Paulo",
+              "matricula": 123456,
+              "nota": 74.67
+          },
+          {
+              "nome": "Carlos",
+              "matricula": 789012,
+              "nota": 81.67
+          },
+          {
+              "nome": "Pedro",
+              "matricula": 345678,
+              "nota": 63.83
+          },
+          {
               "nome": "Ana",
               "matricula": 901234,
               "nota": 78.33
@@ -86,6 +131,26 @@
       "descricao": "No curso de Back-End II, você mergulhará mais a fundo no desenvolvimento de sistemas e aplicativos server-side. Aprofunde seus conhecimentos em linguagens de programação como Python, Java ou Ruby e aprenda a criar APIs robustas, gerenciar bancos de dados avançados e implementar a lógica de negócios complexa por trás das aplicações web. Este curso permitirá que você se torne um especialista em infraestrutura de servidores e garanta o bom funcionamento dos sistemas.",
       "slug": "Prof. Maycon Guedes",
       "alunos": [
+          {
+              "nome": "João",
+              "matricula": 123456,
+              "nota": 70.0
+          },
+          {
+              "nome": "Maria",
+              "matricula": 789012,
+              "nota": 81.67
+          },
+          {
+              "nome": "Pedro",
+              "matricula": 345678,
+              "nota": 73.33
+          },
+          {
+              "nome": "Ana",
+              "matricula": 901234,
+              "nota": 77.5
+          },
           {
               "nome": "João",
               "matricula": 123456,

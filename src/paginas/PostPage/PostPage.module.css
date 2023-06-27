@@ -1,38 +1,64 @@
 .PostPage {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 20px;
-    height: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  height: 100%;
+  align-items: center;
 }
 
 .PostTitulo h1 {
-    width: 200px;
-    color: #565656;
-    font-weight: 200;
+  width: 200px;
+  color: #565656;
+  font-weight: 200;
 }
 
 .PostTitulo small {
-    font-style: italic;
+  font-style: italic;
 }
 
 .PostDescricao {
-    flex-grow: 1;
-    background-color: rgba(0, 255, 8, 0.207);
-    color: #565656;
-    font-size: 28px;
-    max-width: 60%;
-    min-height: 100px;
-    border-radius: 50px;
-    padding: 45px;
+  flex-grow: 1;
+  background-color: rgba(0, 255, 8, 0.207);
+  color: #565656;
+  font-size: 28px;
+  max-width: 60%;
+  min-height: 100px;
+  border-radius: 50px;
+  padding: 45px;
 }
 
-/* Estilos para celular */
+table {
+  border-radius: 15px;
+  text-align: center;
+  width: 60%;
+  background-color: rgba(0, 255, 8, 0.207);
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+p {
+  margin: 0;
+}
+
 @media (max-width: 600px) {
-    .PostDescricao {
-        font-size: 18px;
-        max-width: 80%;
-        padding: 30px;
-    }
+  .PostDescricao {
+      font-size: 18px;
+      max-width: 80%;
+      padding: 30px;
+  }
+
+  table {
+      width: 80%;
+  }
 }

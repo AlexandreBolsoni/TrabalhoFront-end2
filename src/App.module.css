@@ -1,10 +1,4 @@
-.App {
-  overflow-x: hidden;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
+
 
 /* Estilos para celular */
 @media (max-width: 600px) {

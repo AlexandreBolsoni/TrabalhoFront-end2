@@ -8,11 +8,8 @@ function AlunoCard() {
   const parametros = useParams()
   console.log(parametros)
 
-
-
-
-  const curso = posts.find(elemento => elemento.id === Number(parametros.id));  
-  if(!curso) {
+  const post = posts.find(elemento => elemento.id === Number(parametros.id));  
+  if(!post) {
     return (
       <NaoEncontrada />
     )
@@ -24,17 +21,17 @@ function AlunoCard() {
    
             <tr className={styles.PostTitulo}>
               <td>
-                <p>{curso.nome}</p>
+                <p>{post.alunos.nome}</p>
               </td>
             </tr>
             <tr>
               <td>
-                <p>{curso.matricula}</p>
+                <p>{post.alunos.matricula}</p>
               </td>
             </tr>
             <tr>
               <td className={styles.PostDescricao}>
-                {curso.notas}
+                {post.alunos.nota}
               </td>
             </tr>
           </tbody>
