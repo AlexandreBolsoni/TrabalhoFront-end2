@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-// import AlunoCard from "../../componentes/AlunosCard";
+import AlunoCard from "../../componentes/AlunosCard";
 import posts from "../../json/posts.json";
 import NaoEncontrada from "../NaoEncontrada";
 import styles from './PostPage.module.css';
@@ -23,24 +23,8 @@ function PostPage() {
           </div>
           <div className={styles.PostDescricao}>{post.descricao}</div>
         </div>
-
-        <table>
-          <tbody>
-            {post.alunos.map((aluno) => (
-              <tr key={aluno.matricula}>
-                <td>
-                  <p>Nome: {aluno.nome}</p>
-                </td>
-                <td>
-                  <p>Matrícula: {aluno.matricula}</p>
-                </td>
-                <td>
-                  <p>Nota: {aluno.nota}</p>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+<AlunoCard/>
+  
       </div>
     </>
   );

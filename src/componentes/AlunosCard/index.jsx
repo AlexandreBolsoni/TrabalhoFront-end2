@@ -16,29 +16,23 @@ function AlunoCard() {
   }
   return (
 
- <table>
-  <tbody>
-   
-            <tr className={styles.PostTitulo}>
-              <td>
-                <p>{post.alunos.nome}</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>{post.alunos.matricula}</p>
-              </td>
-            </tr>
-            <tr>
-              <td className={styles.PostDescricao}>
-                {post.alunos.nota}
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-
-        
+    <table>
+    <tbody>
+      {post.alunos.map((aluno) => (
+        <tr key={aluno.matricula}>
+          <td>
+            <p>Nome: {aluno.nome}</p>
+          </td>
+          <td>
+            <p>Matrícula: {aluno.matricula}</p>
+          </td>
+          <td>
+            <p>Nota: {aluno.nota}</p>
+          </td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
   
   )
 }
