@@ -15,7 +15,11 @@ td {
  
   padding: 10px;
 }
-
+tr:hover{
+  text-align: center;
+  background-color: rgb(156, 230, 192);
+  transform: scale(1.01);
+}
 /* Estilos para os parágrafos dentro das células da tabela */
 td p {
   margin: 0 auto;

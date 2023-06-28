@@ -1,4 +1,6 @@
-
+.App{
+  overflow-x: hidden;
+}
 
 /* Estilos para celular */
 @media (max-width: 600px) {

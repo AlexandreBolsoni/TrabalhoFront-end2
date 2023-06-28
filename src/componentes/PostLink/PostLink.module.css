@@ -4,8 +4,9 @@ a {
 }
 
 .post {
+    overflow-x: hidden;
     border-radius: 25px;
-    margin:  5% auto;
+    margin:  20px auto;
     width: 60%;
     background-color: rgba(0, 255, 8, 0.207);
     padding: 20px;
@@ -14,7 +15,8 @@ a {
 }
 
 .post:hover {
-    background-color: rgb(235, 235, 235);
+    transform: scale(1.02);
+    background-color: rgb(156, 230, 192);
 }
 
 .id {
